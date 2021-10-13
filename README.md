@@ -139,8 +139,7 @@ WHEN: full screen Overlay navigation from "https://www.w3schools.com/howto/howto
 WHEN: a function called "openNav()" is written.<br>
 WHEN: fetch method is used with url containing the movie id and videos as query parameter.<br>
 WHEN: "site" & "key" from the results array are used with the youtube "iframe".
-  
-<img width="2008" alt="img-3" src="https://user-images.githubusercontent.com/68092036/137196950-7df0fe24-2a19-4eae-9060-c26074c42708.png">
+
 
 ## Demo
 <img width="2560" alt="img-1" src="https://user-images.githubusercontent.com/68092036/137196598-4743693a-22ee-49d5-bec4-77dfb3549692.png">
