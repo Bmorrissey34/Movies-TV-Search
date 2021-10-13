@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+​
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=".\assets\css\styles.css">
+    <title>The Hub</title>
+</head>
+
+<body>
+    <div class="borderBar2">
+         <div class= "outerWelcome" >
+            <div class="welcome"><strong>Welcome </strong> <span id="userName"></span> !
+            </div>
+        </div>
+    </div>
+    <header>
+        <nav>
+            <div class="row nav">
+                <div class="container col s6 left-align flow-text topRated hide-on-small-and-down"> TMDB Search 
+                    <i class="fab fa-searchengin"></i></div>
+                <div class=" col s6 right-align flow-text"><a
+                        class="waves-effect waves-light btn modal-trigger pulse loginBtn flow-text" href="#modal1">Sign
+                        Up!</a>
+
+                    <!-- Modal Structure -->
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                            <div class=“card”>
+
+                                <div class="row">
+                                    <form class="col s12">
+                                        <div class="row">
+                                            <div class="input-field col s6">
+                                                <i class="material-icons prefix">account_circle</i>
+                                                <input id="icon_prefix" type="text" class="validate">
+                                                <label for="icon_prefix">Name</label>
+                                            </div>
+                                            <div class="input-field col s6">
+                                                <i class="material-icons prefix">mail</i>
+                                                <input id="icon_mail" type="tel" class="validate">
+                                                <label for="icon_mail">E-mail</label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#!" id="submit"
+                                    class="modal-close waves-effect waves-purple btn loginBtn pulse">Submit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="container  col s4 right-align tmdbLogo">
+                    <a href="https://www.themoviedb.org/"><img class="responsive-img"
+                            src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_long_2-9665a76b1ae401a510ec1e0ca40ddcb3b0cfe45f1d51b77a308fea0845885648.svg"
+                            alt="TMDB Logo"></a>
+                </div> -->
+                <!-- Modal Trigger -->
+
+        </nav>
+    </header>
+
+    <main class="main">
+       
+        <div class="topRated center-align container valign-wrapper flow-text"><i class="fab fa-hotjar"></i> What's Hot <i
+                class="fab fa-hotjar "></i></div>
+
+        <div class="container netflix-recommend">
+            <div class="carousel" id="netflixCarousel">
+                <a class="carousel-item" href="../trial-Amit/index-amit.html"><img
+                        src="https://image.tmdb.org/t/p/w1280/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg"></a>
+                <a class="carousel-item" href="../trial-Amit/index-amit.html"><img
+                        src="https://image.tmdb.org/t/p/w1280/kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg"></a>
+                <a class="carousel-item" href="../trial-Amit/index-amit.html"><img
+                        src="https://image.tmdb.org/t/p/w1280/nLanxl7Xhfbd5s8FxPy8jWZw4rv.jpg"></a>
+                <a class="carousel-item" href="..\trial-Jing\index.html"><img
+                        src="https://d24v5oonnj2ncn.cloudfront.net/wp-content/uploads/2017/07/19120919/Lucifer-Season-3-Poster.jpg"></a>
+                <a class="carousel-item" href="..\trial-Jing\index.html"><img
+                        src="https://th.bing.com/th/id/R.e774d089608b8ba039b1362a961b4d03?rik=zw7m4oZLqLwFdw&riu=http%3a%2f%2fimages4.fanpop.com%2fimage%2fphotos%2f20000000%2fGame-of-Thrones-Poster-game-of-thrones-20026735-1728-2560.jpg&ehk=CKe0EJDlUyJ7qPR3WbwarKV0aueF60wdtulvIciGyVs%3d&risl=&pid=ImgRaw&r=0"></a>
+                <a class="carousel-item" href="..\trial-Jing\index.html"><img
+                        src="https://th.bing.com/th/id/R.2a3d9b41b40dc4b983c3243ca4f7f3c3?rik=BdjAd3Xxb%2bkUhA&riu=http%3a%2f%2fwww.coronacomingattractions.com%2fsites%2fdefault%2ffiles%2fnews%2fwalking_dead_poster.jpg&ehk=PZOIq4PxGXktzQNGETOUASKF7%2btnI%2byZmy%2bOQenw9Js%3d&risl=&pid=ImgRaw&r=0"></a>
+                <a class="carousel-item" href="..\trial-Jing\index.html"><img
+                        src="https://th.bing.com/th/id/R.bf43f5ac53cc8a92bf134967441d3244?rik=TBg%2bwvFMnXB6ng&pid=ImgRaw&r=0"></a>
+            </div>
+        </div>
+
+    </main>
+    <section>
+        <div class="borderBar"></div>
+        <div class="row">
+            <div class="col s6 center-align hoverable flow-text">
+                <a href="..\trial-Amit\index-amit.html">
+                    <div class="movieTitle"><i class="fa fa-film" aria-hidden="true"></i> Movies</div>
+                    <img class=" s6 responsive-img movieImg"
+                        src="https://cdn.traileraddict.com/content/20th-century-fox/free-guy-poster.jpg">
+                </a>
+            </div>
+            <div class="col s6 center-align hoverable flow-text">
+                <div class="movieTitle"><i class="fas fa-tv"></i> TV</div>
+                <a href="..\trial-Jing\index.html">
+                    <img class=" s6 responsive-img movieImg"
+                        src="https://th.bing.com/th/id/R.e774d089608b8ba039b1362a961b4d03?rik=zw7m4oZLqLwFdw&riu=http%3a%2f%2fimages4.fanpop.com%2fimage%2fphotos%2f20000000%2fGame-of-Thrones-Poster-game-of-thrones-20026735-1728-2560.jpg&ehk=CKe0EJDlUyJ7qPR3WbwarKV0aueF60wdtulvIciGyVs%3d&risl=&pid=ImgRaw&r=0">
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="page-footer nav">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">TMDB Search</h5>
+                </div>
+                <div class="container col s6 right-align tmdbLogo">
+                    <a href="https://www.themoviedb.org/"><img class="responsive-img"
+                            src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_long_2-9665a76b1ae401a510ec1e0ca40ddcb3b0cfe45f1d51b77a308fea0845885648.svg"
+                            alt="TMDB Logo"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2014 Copyright Text
+                <a class="white-text text-lighten-4 right" href="index.html">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+    <div class="borderBar2"></div>
+
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
+        integrity="sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function () {
+            $('#netflixCarousel').carousel();
+        });
+
+        $(document).ready(function () {
+
+            $('.modal').modal();
+
+        })
+    </script>
+</body>
+
+</html>
+​
