@@ -164,7 +164,7 @@ WHEN: "site" & "key" from the results array are used with the youtube "iframe".
 ## Credits
 - Brendan Morrissey
 - Jing Li
-- Amit Ranjan
+- Amitabh Ranjan
 - Tai Nguyen
 
 ## Links
