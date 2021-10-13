@@ -24,8 +24,8 @@ Our motivation for building this website was because we were all tired of scroll
 Movie Magic is a website that allows you to details on movies and shows. It'll show you all types of movies and shows from every genre and a rating. When you hover over the show you will presented a description and a trailer button, if cick the button a trailer of the show. There is a search bar if you want to look up specific show. 
 
 ## Demo
-![website](/images/Website-1.png)
-![website](/images/Website-2.png)
+![website](images/Website-1.png)
+![website](images/Website-2.png)
 
 
 
