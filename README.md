@@ -142,15 +142,7 @@ WHEN: "site" & "key" from the results array are used with the youtube "iframe".
   
 
 ## Demo
-![Website-1](https://user-images.githubusercontent.com/88950762/137052844-0583306a-0a68-40ba-a481-5df044612813.PNG)
-![Website-2](https://user-images.githubusercontent.com/88950762/137052846-16a71be1-f59f-45dd-a29d-c94339e869c2.PNG)
-
-
-
-
-
-
-
+<img width="2560" alt="img-1" src="https://user-images.githubusercontent.com/68092036/137196598-4743693a-22ee-49d5-bec4-77dfb3549692.png">
 
 
 
