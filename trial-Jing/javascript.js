@@ -112,7 +112,7 @@ function clearButton(){
         let clrBtn = document.createElement('div')
     clrBtn.classList.add('tag', 'highlight')
     clrBtn.id = 'clear';
-    clrBtn.innerText = 'Clear-Genre'
+    clrBtn.innerText = 'Clear-Year'
     clrBtn.addEventListener('click', function(){
         selectedGenre = [];
         setYear();
