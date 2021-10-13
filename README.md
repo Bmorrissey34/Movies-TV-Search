@@ -10,7 +10,7 @@ Because of the time constraint, for now we have only managed to include the disp
 As a person who always turn towards movies or tv-shows as a source of entertainment,<br>
 I WANT  : to have a single platform which provides the movies and tv-shows list<br>
 So THAT : I am able to decide which movie or show to watch based on its overview, rating and 
-          available trailer. I should be able to search the movie with kea-word and genre.
+          available trailer. I should be able to search the movie with key-word and genre/release year.
 
 
 **Acceptance Criteria**
