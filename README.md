@@ -162,9 +162,9 @@ WHEN: "site" & "key" from the results array are used with the youtube "iframe".
 
 
 ## Credits
-- Brendan Morrissey
-- Jing Li
 - Amitabh Ranjan
+- Jing Li
+- Brendan Morrissey
 - Tai Nguyen
 
 ## Links
