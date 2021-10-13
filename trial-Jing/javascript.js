@@ -70,7 +70,7 @@ let years = [
 let selectedGenre = []
 
 setYear()
-
+//Set the year filter buttons
 function setYear(){
     tagsEl.innerHTML = ''
 
@@ -104,6 +104,7 @@ function setYear(){
     }
 }
 
+// Set a clearButton to clean the users filter history
 function clearButton(){
     let clearbutton = document.getElementById('clear')
     if(clearbutton){
@@ -121,7 +122,7 @@ function clearButton(){
     tagsEl.appendChild(clrBtn);
     }  
 }
-
+//Hightlight the years filter when the user click the year buttons
 function highlightSelectedGenre(){
     let tags = document.querySelectorAll(".tag")
 
@@ -138,7 +139,7 @@ function highlightSelectedGenre(){
 }
 
 getMovies(api_url)
-
+// Get the tv shows data and display on the page
 function getMovies(url){
     fetch(url, {
       "method": "GET",
@@ -169,7 +170,7 @@ function showMovies(results){
         movieEl.classList.add('movie');
         movieEl.innerHTML = `<img src="${results[i].poster}" alt="${results[i].title}" <div class="movie-info"><h3 style="color:white; margin:10px">${results[i].title}</h3><span class="movie-score" style="color:white; margin:10px">${results[i].imdbrating}</span></div><div class="overview"><h3>Overview</h3>${results[i].synopsis}<br/><button class="know-more" id="${results[i].imdbid}">Know More</button></div>`;
         main.appendChild(movieEl)
-        //
+   
         document.getElementById(results[i].imdbid).addEventListener("click", function () {
           fetch(`https://imdb-api.com/en/API/YouTubeTrailer/k_9ladwrec/${results[i].imdbid}`)
             .then(function (response) {
