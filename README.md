@@ -140,11 +140,12 @@ WHEN: a function called "openNav()" is written.<br>
 WHEN: fetch method is used with url containing the movie id and videos as query parameter.<br>
 WHEN: "site" & "key" from the results array are used with the youtube "iframe".
   
+<img width="2008" alt="img-3" src="https://user-images.githubusercontent.com/68092036/137196950-7df0fe24-2a19-4eae-9060-c26074c42708.png">
 
 ## Demo
 <img width="2560" alt="img-1" src="https://user-images.githubusercontent.com/68092036/137196598-4743693a-22ee-49d5-bec4-77dfb3549692.png">
 
-
+<img width="2008" alt="img-3" src="https://user-images.githubusercontent.com/68092036/137196950-7df0fe24-2a19-4eae-9060-c26074c42708.png">
 
 ## APIs
 - https://imdb-api.com/api/#YouTubeTrailer-header
@@ -163,3 +164,6 @@ WHEN: "site" & "key" from the results array are used with the youtube "iframe".
 Github : https://github.com/Bmorrissey34/Movies-TV-Search
 
 Deployed website: https://bmorrissey34.github.io/Movies-TV-Search/
+
+## Google Slides Presentation
+https://docs.google.com/presentation/d/1FH0PXbt35-H0mlKuPlcRi5HDNQh5Mcnxt1SixWmMIhw/edit#slide=id.gf8107bea0f_1_0
