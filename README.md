@@ -51,4 +51,4 @@ Movie Magic is a website that allows you to details on movies and shows. It'll s
 
 ## Links
 Github : https://github.com/Bmorrissey34/Movies-TV-Search
-Deployed website: git@github.com:Bmorrissey34/Movies-TV-Search.git
+Deployed website: https://bmorrissey34.github.io/Movies-TV-Search/
