@@ -130,7 +130,16 @@ It's considered done<br>
 WHEN: a button element called "Know-More" is added with "class=know-more" just below the "Overview" in 
       the "showMovies()" function where we have dynamically created all the elements.<br>
 WHEN: style attribute is added to the "know-more" button in sryle.css.<br>
-WHEN:  
+WHEN: the key "id" (from the array response through API url) is added to the know-more button.<br> 
+WHEN: the element with this id grabbed using getElementById().<br>
+WHEN: an eventListener is added to this element.<br>
+WHEN: (results.id) is logged into console.<br>
+WHEN: full screen Overlay navigation from "https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp" to add divs 
+      and their css style attribute are used and put in the html page just above the main tag.<br>
+WHEN: a function called "openNav()" is written.<br>
+WHEN: fetch method is used with url containing the movie id and videos as query parameter.<br>
+WHEN: "site" & "key" from the results array are used with the youtube "iframe".
+  
 
 ## Demo
 ![Website-1](https://user-images.githubusercontent.com/88950762/137052844-0583306a-0a68-40ba-a481-5df044612813.PNG)
